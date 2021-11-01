@@ -1,0 +1,5 @@
+QUESTION 1: Which option do you want for your makeup lab? (1,2,or 3)
+QUESTION 2: If you answered 2: which lab topic do you want to make up?
+
+
+Reflection Questions
