@@ -102,9 +102,38 @@ Determine if the circular linked list you are on is even or odd length by loopin
 Write 5 tests describing your input, what you're testing, and desired output
 
 ### Lab 8: BST
+Given a Binary Search Tree implement prune that does the following:
+* Removes duplicates
+* If the height is equal to the number of items-1, creates a new tree by inserting the values in a random order into a BST
 
+### Reflections
+1) What edge cases should you consider?
+2) How do you detect duplicates?
+3) How do you remove a node?
+4) How did you randomize the order of the values you inserted into a  new tree?
+5) How did you check if you should create your new tree?
+6) On average, what is the height of the tree? 
+
+### Tests
+Write 5 tests describing your input, what you're testing, and desired output
 ### Lab 9: Stacks and Queues
+Represent the game slapjack, which has the following methods
+A card is represented by a String with the number of the card followed by the suit (Hearts, Clubs, Diamonds, Spades)
+* addCard(String card) which adds a card to the pile
+* shouldSlap() which returns true if any of the following
+   1) Double: the last two cards are the same number. E.g 10H and 10C
+   2) Sandwhich: there are two cards of the same number with a different card inbetween. E.g. 3D, 2S, 3C
+   3) Run: the last 3 cards have the same suit, and are in increasing or decreasing order. E.g 4S,5S,6S
 
+### Reflections
+1) What edge cases should you consider?
+2) How do you determine if there is a double?
+3) How do you determine if there is a sandwhich?
+4) How did you determine if there was a run?
+5) Did you use a stack or queue? Why?
+
+### Tests
+Write 5 tests describing your input, what you're testing, and desired output
 ## Option 3: Makeup your own lab
 > NOTE: You can only take this option if your lab grade average is >75%. 
 ### Example Grading
