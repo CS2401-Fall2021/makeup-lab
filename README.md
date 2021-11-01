@@ -1,14 +1,19 @@
 # Makeup Lab (100 pts, Due Nov 30th)
 This lab will be worth 100 points. It will be due at the end of the day (NOT NOON) on Nov 30th. You have 3 options:
 1) Have a nice break. Take the average of your other labs
-2) Makeup one of the labs you didn't do well in
-3) Do a fun lab of your own creation
+2) Makeup one of the labs you didn't do well in. 
+3) Do a fun lab of your own creation (must have >75% lab average)
 
 ## Option 1: Take the average of your other labs
-This will average your grade for labs 1-9 (not including project labs) and you submit nothing. However you must specify this in reflection.txt and push the change in order to count for credit
+This will average your grade for labs 1-9 (not including project labs) and you submit nothing. However you must specify this in reflection.txt and push the change in order to count for credit. 
+### Example Grading
+You averaged 83% on labs. You update the reflection.txt to indicate option 1. Then you recieve an 83% on this lab.
 
 ## Option 2: Make up a lab
-Since solutions are posted, you will need to code, write tests, and answer reflection questions pertaining to questions realating to 
+Since solutions are posted, you will need to code, write tests, and answer reflection questions pertaining to questions realating to topics covered in labs. Choose ONE of the option below. 
+
+### Example Grading
+You got a 15% on lab3 and your lab average is 71%. So you make up lab 3 and recive an 85% instead. Your lab 3 grade gets changed to an 85. Now your lab average is 79%, which will be the grade you get on this makeup lab.
 
 ### Lab 1: String manipulation
 Write a function that takes in a string, extracts the words, and turns the sentance into pig-latin
@@ -77,9 +82,29 @@ Change the binary search algorithm to work for this strangely sorted array
 Write 5 tests describing your input, what you're testing, and desired output
 
 ### Lab 6: Sorting
+Given a 2-D array of doubles, sort each array using the in-place sort of your choice. Then sort the arrays based off thier initial value using a different in-place sort.
+#### Reflection Questions
+1) What sort did you use for each row?
+2) What sort did you use for each column ?
+3) What is the big-O runtime of a 2D array of m arrays, each of which has a max-length of m? Why?
+
+#### Tests
+Write 5 tests describing your input, what you're testing, and desired output
 
 ### Lab 7: Linked Lists
 
 ### Lab 8: BST
 
-### Lab 9: Queues
+### Lab 9: Stacks and Queues
+
+## Option 3: Makeup your own lab
+> NOTE: You can only take this option if your lab grade average is >75%. 
+### Example Grading
+Let's say your average is 80%. You choose option 3 and get 100%. 100% is the grade you get for the lab, bringing your lab grade average up to 82%
+### Reflections
+1) What is your problem? What data Structures/algorithms does it use?
+2) What edge cases did you consider?
+3) What is the big-O runtime for this algorithm? Why?
+
+### Tests
+Write 5 tests describing your input, what you're testing, and desired output
