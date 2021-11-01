@@ -1,7 +1,7 @@
 # Makeup Lab (100 pts, Due Nov 30th)
 This lab will be worth 100 points. It will be due at the end of the day (NOT NOON) on Nov 30th. You have 3 options:
 1) Have a nice break. Take the average of your other labs
-2) Makeup one of the labs you didn't do well in. 
+2) Replace one of the labs you didn't do well in by doing a lab on a similar theme 
 3) Do a fun lab of your own creation (must have >75% lab average)
 
 ## Option 1: Take the average of your other labs
@@ -9,7 +9,7 @@ This will average your grade for labs 1-9 (not including project labs) and you s
 ### Example Grading
 You averaged 83% on labs. You update the reflection.txt to indicate option 1. Then you recieve an 83% on this lab.
 
-## Option 2: Make up a lab
+## Option 2: Replace up a lab
 Since solutions are posted, you will need to code, write tests, and answer reflection questions pertaining to questions realating to topics covered in labs. Choose ONE of the option below. 
 
 ### Example Grading
@@ -92,6 +92,14 @@ Given a 2-D array of doubles, sort each array using the in-place sort of your ch
 Write 5 tests describing your input, what you're testing, and desired output
 
 ### Lab 7: Linked Lists
+Determine if the circular linked list you are on is even or odd length by looping through each item ONCE. 
+#### Reflection Questions
+1) What edge cases do you need to consider?
+2) How do you know when to end?
+3) What is the runtime? Why?
+
+#### Tests
+Write 5 tests describing your input, what you're testing, and desired output
 
 ### Lab 8: BST
 
