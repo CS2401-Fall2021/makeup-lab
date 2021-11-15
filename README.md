@@ -48,14 +48,16 @@ Given a 2-D array, count how many Chars are vowels
 Write 5 tests describing your input, what you're testing, and desired output
 
 ### Lab 3: big-O
-Write 5 methods with different runtimes (constant, linear, quadratic, exponential, m*n)
+Write 5 methods with different worst case runtimes (constant, linear, quadratic, exponential, m*n).
 #### Reflection Questions
-1) Wahat is the runtime of each method?
+1) What is the runtime of each method? Why?
 2) What is n (and/or) m?
-3) Using the timer methods given in the original lab 3, run timer for each value of n and record it. 
+3) Using the timer methods given in the original lab 3, run timer for each value of n, record, and plot it using the plotters we used in lab 3. 
+4) What does each method do? 
 
 ### Lab 4: Recursion
-Generate a list of all the ways to select a given subset of letters. E.g. "bat" should return {"b","a","t","ba","bt","at","bat"}
+print all the ways to select a given subset of letters. E.g. "bat" should print out "b","a","t","ba","bt","at","bat". Note that the order of the strings printed out is not important. 
+
 #### Reflection Questions
 1) What is your base case?
 2) What is your recursive call?
